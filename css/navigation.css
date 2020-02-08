@@ -1,0 +1,28 @@
+  
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #header {
+    margin: 0;
+    padding: 0 10px;
+    background: #00BDAA;
+    color: #F2FCFB;
+    list-style-type: none;
+    display: flex;
+  }
+  
+  #header li {
+    padding: 5px;
+    margin: 15px;
+    flex: 0 0 auto;
+  }
+  
+  #header li:nth-child(1){
+    margin-right: auto;
+    color: yellow;
+    font-weight: bolder;
+  }
+
+  
