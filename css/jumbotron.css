@@ -3,4 +3,16 @@
     height: 500px;
     background: url('../images/background.jpg') no-repeat center;
     background-size: cover;
+    display: flex;
+}
+
+#jumbotron-content {
+    margin: 200px auto;
+    text-align: center; 
+    color: #fff;
+}
+.get_started {
+
+ width: 130px;
+ height: 50px;
 }
