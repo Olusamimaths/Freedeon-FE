@@ -1,0 +1,30 @@
+#how-to > h1 {
+    text-align: center;
+}
+
+#how-to {
+    padding: 40px;
+}
+#how-to-one {
+    width: 85%;
+    margin: 0 auto;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 2px 5px #00BDAA;
+}
+#left {
+    flex: 1;
+    padding: 10px;
+}
+
+#center {
+    flex: 1;
+    padding: 10px;
+    background: #00BDAA;
+    color: #fff;
+}
+#right {
+    flex: 1;
+    padding: 10px;
+}

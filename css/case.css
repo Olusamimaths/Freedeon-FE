@@ -1,0 +1,53 @@
+
+#case-section {
+    width: 80%;
+    height: auto;
+    margin: 50px auto;
+}
+
+#case-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#case-section > h1 {
+    text-align: center;
+}
+
+#case-list li {
+    width: 300px;
+    height: 300px;
+    box-shadow: 2px 1px 10px black;
+}
+
+.case #case-content {
+    padding: 20px;
+    text-align: justify;
+}
+.case #case-content h1 {
+    border-bottom: 1px solid #00BDAA;
+}
+
+#actions .btn {
+    background: #00BDAA;
+    padding: 10px;
+    border: 0;
+    margin-right: 10px;
+}
+#actions {
+    display: flex;
+}
+
+#browse-more {
+    text-align: center;
+    margin: 30px;
+}
+#browse-more .btn {
+    padding: 15px;
+    border-radius: 12px;
+    border: 0;
+    background: #00BDAA;
+    color: #fff;
+}
