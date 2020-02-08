@@ -1,3 +1,10 @@
 
 @import './navigation.css';
 @import './jumbotron.css';
+@import './case.css';
+@import './how-to.css';
+@import './footer.css';
+
+button {
+    cursor: pointer;
+}
