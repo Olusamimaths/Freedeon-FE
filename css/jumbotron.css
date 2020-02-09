@@ -6,14 +6,40 @@
   display: flex;
 }
 
+#jumbotron-content h1 {
+  margin: 0;
+}
+
+
+#jumbotron-content h6 {
+  margin: 10px;
+}
+
 #jumbotron-content {
-  margin: 100px auto;
   text-align: center;
   color: #fff;
+  font-size: 1rem;
+  margin: 120px auto;
+  font-family: poppins,Arial,sans-serif;
 }
-.get_started {
-  width: 130px;
-  height: 50px;
+
+
+span{
+  color: red;
+}
+
+button{
+  padding: 20px 30px;
+  font-family: poppins,Arial,sans-serif;
+  background: #000;
+  color: #fff;
+  border-style: none;
+}
+button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  border-color: #000;
 }
 
 @media only screen and (min-width: 720px) {
@@ -26,5 +52,9 @@
   }
   #jumbotron-content {
     margin: 200px auto;
+    font-size: 2rem;
   }
+  .get_started {
+  margin-top: 40px;
+} 
 } 

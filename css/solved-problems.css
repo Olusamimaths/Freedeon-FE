@@ -1,0 +1,21 @@
+#solved-problems{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+#solved-problems img{
+    height: 200px;
+    width: 400px;
+}
+
+#solved-problems p{
+    text-align: center;
+}
+
+#solved-problems h1{
+    text-align: center;
+}
