@@ -1,17 +1,47 @@
 #how-to > h1 {
     text-align: center;
+    text-transform: uppercase;
+    color: #fff;
 }
 
 #how-to {
-    padding: 40px;
+    padding-top: 10px;
+    background: #000;
 }
 #how-to-one {
-    width: 85%;
-    margin: 0 auto;
-    height: 300px;
+    color: #fff;
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    box-shadow: 1px 2px 5px #00BDAA;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+#left, #center, #right{
+    padding: 20px;
+    width: 25%;
+}
+
+.report-btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #000;
+    background: #fff;
+    text-transform: uppercase;
+}
+
+
+.report-btn:hover{
+    padding: 10px 20px;
+    color: #fff;
+    background: #000;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+}
+
+/* 
+#left, #center, #right {
+    margin-top: 10px;
 }
 #left {
     flex: 1;
@@ -21,10 +51,54 @@
 #center {
     flex: 1;
     padding: 10px;
-    background: #00BDAA;
+    background: #000;
     color: #fff;
 }
 #right {
     flex: 1;
     padding: 10px;
 }
+
+.report-btn {
+    background: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border: 0;
+
+} */
+
+/*
+
+@media only screen and (min-width: 720px) {
+    #how-to > h1 {
+        text-align: center;
+    }
+    
+    #how-to {
+        padding: 40px;
+    }
+    #how-to-one {
+        width: 85%;
+        margin: 0 auto;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        box-shadow: 1px 2px 5px #00BDAA;
+    }
+    #left {
+        flex: 1;
+        padding: 10px;
+    }
+    
+    #center {
+        flex: 1;
+        padding: 10px;
+        background: #00BDAA;
+        color: #fff;
+    }
+    #right {
+        flex: 1;
+        padding: 10px;
+    }
+} 
+*/

@@ -1,0 +1,42 @@
+#center-background{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 20px;
+}
+
+#center-background h1{
+    font-family: poppins,Arial,sans-serif;
+
+}
+
+#center-background .btn{
+background: red;
+padding: 10px 20px;
+}
+
+#center-background .btn:hover{
+    background: red;
+    padding: 10px 20px;
+    border: 2px solid white;
+    }
+    
+
+
+
+#center-background img{
+    height: 400px;
+    width: 900px;
+    
+}
+
+.wpb_wrapper{
+    width: 50%;
+    padding: 10px;
+}
+
+
+.img_wrapper{
+    width: 50%;
+}
+

@@ -1,0 +1,54 @@
+.full-p {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    height: 100vh;
+  }
+  
+  .left-side {
+      padding-top: 50px;
+    width: 40%;
+    padding: 60px 20px;
+  }
+  
+  .right-side {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    /* background-color: #007bff; */
+    background-image: url(/images/sidebar-img-2.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .right-side {
+    color: #000;
+  }
+  
+  .create-account-message,
+  h1 {
+    color: #00BDAA !important;
+  }
+  
+  .create-account-message,
+  h4 {
+    color: #000;
+  }
+  
+  .forgot-password {
+    padding: 5px;
+    color: #000;
+  }
+  
+  label {
+    color: #000;
+  }
+  
+  button {
+    background-color: #00BDAA !important;
+  }

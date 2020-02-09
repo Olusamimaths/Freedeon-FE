@@ -4,7 +4,12 @@
 @import './case.css';
 @import './how-to.css';
 @import './footer.css';
+@import './solved-problems.css';
+@import './center-background.css';
 
 button {
     cursor: pointer;
+}
+* {
+    box-sizing: border-box;
 }
