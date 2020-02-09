@@ -21,12 +21,11 @@
         <form>
           <div class="form-row">
             <div class="form-group col-md-6">
-              <label for="inputEmail4">Email</label>
+              <label for="username">Username</label>
               <input
-                type="email"
                 class="form-control"
-                id="inputEmail4"
-                placeholder="Email"
+                id="username"
+                placeholder="Username"
               />
             </div>
             <div class="form-group col-md-6">
@@ -40,21 +39,21 @@
             </div>
           </div>
           <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Email"
+            />
+          </div>
+          <div class="form-group">
             <label for="inputAddress">Address</label>
             <input
               type="text"
               class="form-control"
               id="inputAddress"
               placeholder="1234 Main St"
-            />
-          </div>
-          <div class="form-group">
-            <label for="inputAddress2">Address 2</label>
-            <input
-              type="text"
-              class="form-control"
-              id="inputAddress2"
-              placeholder="Apartment, studio, or floor"
             />
           </div>
           <div class="form-row">
@@ -65,8 +64,9 @@
             <div class="form-group col-md-4">
               <label for="inputState">State</label>
               <select id="inputState" class="form-control">
-                <option selected>Choose...</option>
-                <option>...</option>
+                <option selected>Lagos</option>
+                <option>Abuja</option>
+                <option>Port Harcourt</option>
               </select>
             </div>
             <div class="form-group col-md-2">
@@ -82,7 +82,7 @@
               </label>
             </div> -->
           </div>
-          <button type="submit" class="btn btn-primary">Register</button>
+          <button id="signUpButton" type="submit" class="btn btn-primary">Register</button>
         </form>
         <div class="forgot-password">
           <p>Already have an account? <a href="/signin.html">Sign in</a></p>
@@ -93,5 +93,7 @@
         <!-- <h2>Join the leading community for designers!</h2> -->
       </div>
     </div>
+
+    <script src="js/signup.js"></script>
   </body>
 </html>
